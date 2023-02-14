@@ -1,0 +1,475 @@
+*{
+	font-family: 'Barlow', sans-serif;
+}
+
+html {
+	padding: 0;
+	margin: 0;
+	height: 100%;
+}
+
+body {
+	background-color: #ffffffd8;
+	padding: 0;
+	margin: 0;
+	height: 100%;
+	flex-direction: column;
+	/*background-image: url('../img/background.jpg');*/
+	background-size: cover;
+	background-position: center;
+	min-height: 100%;
+}
+
+header {
+	padding: 20px 0 0 10px;
+	background-color: #020113;
+}
+
+header #brand img {
+	margin:auto;
+	height:60px;
+}
+
+
+h3{
+	font-size: 1.5em; 
+	text-transform: uppercase;
+}
+
+/*  ----------------- SUCESS MESSAGE CONNECTION ------------------------- */
+.success {
+	padding: 10px;
+	margin: 30px 0;
+	color: white;
+	border-radius: 5px;
+	background-color: green;
+	text-align: center;	
+}
+
+
+/*  ----------------- IMAGE TURN  ------------------------- */
+.images{
+	display: flex;
+	width: calc(400px * 4);
+	height: 400px;
+	animation-duration: 15s;
+	animation-name: mesImages;
+	animation-iteration-count: infinite;
+}
+
+/*  ----------------- BIENVENU MATEK SHOP DESIGN ------------------------- */
+.text-gradiant {
+    background: linear-gradient(
+        94.23deg,#53cbfa 12.41%,#fd9179 52.55%,#ff6969 89.95%);
+        background-image: linear-gradient(
+        94.23deg, rgb(83, 250, 250) 35.41%,rgb(147, 253, 121) 45.55%, rgb(251, 253, 121) 50.55%, rgb(255, 105, 105) 70.95%);
+        background-position-x: initial;
+        background-position-y: initial;
+        background-size: initial;
+        background-attachment: initial;
+        background-origin: initial;
+        background-color: initial;
+        -webkit-text-fill-color: transparent;
+		-webkit-background-clip: text;
+		text-align: center;
+		
+}
+
+
+.h1.text-gradient {
+    line-height: 1.22;
+}
+
+@keyframes mesImages {
+	0%{
+		transform: translateX(0);
+	}
+	25%{
+		transform: translateX(-400px);
+	}
+	50%{
+		transform: translateX(-800px);
+	}
+	75%{
+		transform: translateX(-1200px);
+	}
+	100%{
+		transform: translateX(0);
+	}
+}
+
+/*  ----------------- CAROUSSEL  ------------------------- */
+#caroussel{
+	height: 400px;
+	width: 70%;
+	overflow: hidden; /*on cache le scrollber*/
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+	border-radius: 20px;
+
+	margin-bottom: 40px;
+}
+
+
+/*  ----------------- BUTTON CONNEXION  ------------------------- */
+
+.glow-on-hover {
+    width: 150px;
+    height: 50px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #111;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+	margin-left: 80%;
+}
+
+.glow-on-hover:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 1;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.glow-on-hover:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #111;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}
+
+
+/*  ----------------- BUTTON CLIENT (PANIER AND CONNEXION BUTTON) ------------------------- */
+#buttonclient {
+
+	
+
+}
+
+/*nav{
+	text-align: center; /*les boutons de navigations sont centrés
+	font-size: 1.1em;
+	background-color: white;
+	box-shadow: 0px 3px 1px -1px rgba(0,0,0, 0.5);
+	padding: 15px;
+	position: absolute fixed relative;
+}
+
+ul{
+	padding: 0; /*supprime les p'tit point des menus-lien
+	display: inline;
+}
+/******
+
+nav ul{
+	padding: 0px;
+	margin: 0px;
+}
+
+nav > ul::after{
+	content:"";
+	display: block;
+	clear: both;
+}
+nav li{
+	list-style-type: none; 
+	display: inline;
+	margin: 10px;
+	position: relative;
+}
+
+li:hover {
+	font-weight: bold;
+}
+a{
+	text-decoration: none;/*on enlève le soulignement
+	color: black;
+}
+nav a:focus {
+	color: red;
+}
+
+.submenu{
+    display: none;
+}
+nav > ul li:hover .submenu{
+    display: block;
+}
+.submenu{
+    display: none;
+    box-shadow: 0px 1px 2px #CCC;
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
+}
+nav li:hover .submenu{
+	display: inline-block;
+	position: absolute;
+	top: 100%;
+	padding: 0px;
+	z-index: 1000;
+}
+
+.submenu{
+	background-color: white;
+	text-align: center;
+
+}
+.submenu a{
+    padding: 10px;
+    border-bottom: none;
+}
+
+.submenu a:hover{
+    border-bottom: none;
+    background-color: rgba(200, 200, 200, 0.1);
+}
+.menu > a::before{
+    content:"«";
+    font-size: 1em;
+}
+.menu > a::after{
+    content:"»";
+    font-size: 1em;
+   
+}
+*/
+
+/*.submenu li{
+	/*border-bottom: 1px solid #CCC;
+	padding-bottom: 10px;
+}
+.submenu li a{
+	padding: 15px 30px;
+	font-size: 13px;
+	color: #222538;
+	width: 270px;
+}*/
+
+#scroll_to_top {
+	position: fixed;
+	width: 25px;
+	height: 25px;
+	bottom: 50px;
+	right: 30px;
+  }
+  #scroll_to_top img {
+	width: 40px;
+  }
+
+.contener{
+	width: 80%;
+	margin: auto;
+	text-align: center;
+}
+#projets{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+#picture-project img{
+	width: 60%;
+	padding-bottom: 15px;
+	
+}
+
+.projet{
+	width: 300px;
+	margin: 30px;
+	background: white;
+	padding-bottom: 15px;
+	border: 0px black solid;
+	border-radius: 10px;
+	overflow: hidden;
+  	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+	  display: flex;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+.projet:hover{
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+	/*transition: 0.3s; gère la vitesse du hover*/
+}
+
+.projet img{
+	min-width: 300px;
+	height: 400px;
+}
+.picture{
+	width: 300px;
+	height: 400px;
+	overflow: hidden;
+	margin-bottom: 15px;
+}
+.projet .prix{
+	font-size: 0.9em;
+}
+.projet span{
+	text-transform: uppercase;
+	display: block;
+}
+/* IMAGES ACCUEIL */
+.img-accueil{
+	width: 400px;
+	margin: 30px;
+	background: white;
+	padding-bottom: 15px;
+	border: 0px black solid;
+	border-radius: 10px;
+	overflow: hidden;
+  	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+
+}
+.img-accueil img{
+	min-width: 400px;
+	height: 266px;
+}
+.picture-accueil{
+	width: 400px;
+	height: 266px;
+	overflow: hidden;
+	margin-bottom: 15px;
+}
+.img-accueil .date-project{
+	font-size: 0.7em;
+}
+
+.img-accueil:hover{
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+/*fin img Accueil**/
+
+/* IMAGES SHORT */
+.img-short{
+	width: 300px;
+	margin: 30px;
+	background: white;
+	padding-bottom: 15px;
+	border: 0px black solid;
+	border-radius: 10px;
+	overflow: hidden;
+  	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+
+}
+.img-short img{
+	min-width: 300px;
+	height: 266px;
+}
+.picture-short{
+	width: 300px;
+	height: 266px;
+	overflow: hidden;
+	margin-bottom: 15px;
+}
+.img-short .date-project{
+	font-size: 0.7em;
+}
+
+.img-short:hover{
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.img-short .prix{
+	font-size: 0.9em;
+}
+.img-short span{
+	text-transform: uppercase;
+	display: block;
+}
+/*fin img short**/
+
+/* IMAGES JEANS */
+.img-jeans{
+	width: 400px;
+	margin: 30px;
+	background: white;
+	padding-bottom: 15px;
+	border: 0px black solid;
+	border-radius: 10px;
+	overflow: hidden;
+  	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+
+}
+.img-jeans img{
+	min-width: 300px;
+	height: 400px;
+}
+.picture-jeans{
+	width: 400px;
+	height: 400px;
+	overflow: hidden;
+	margin-bottom: 15px;
+}
+.img-jeans .date-project{
+	font-size: 0.7em;
+}
+
+.img-jeans:hover{
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+/*fin img jeans**/
+#contact{
+	border: 1px black solid; 
+	border-radius: 15px ;
+	padding: 30px;
+	margin-bottom: 50px;
+	background-color: wheat;
+}
+@media all and (max-width: 1000px){
+	.picture-accueil img{
+	width: 100%;
+    padding-bottom: 15px;
+	}
+
+
+}
+
+a.leBouton {
+	text-decoration: none;
+	padding: 10px 30px;
+	background-color: blue; 
+	color: white;
+	border: 1px solid gray;
+	border-style:inset;
+	}
+	a.leBouton2
+	{
+	border-radius: 12px;
+	border: 2px solid #46a28d;
+	}
+	a.leBouton:hover {
+	background-color: yellow;
+	color:red;
+	}
+
+
+
+
