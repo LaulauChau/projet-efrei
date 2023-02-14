@@ -32,7 +32,7 @@
 	}
 
 	//ESPACE CLIENT
-	if(isset($_SESSION['connect'])){
+	/*if(isset($_SESSION['connect'])){
 
 		require('../server/bd.config.php');
 
@@ -42,13 +42,13 @@
 		while($userAccount = $reqUser->fetch()){
 
 			if($userAccount['blocked'] == 1) {
-				header('location: ../espace_client/logout.php');
+				header('location: logout.php');
 				exit();
 			}
 
 		}
 
-	}
+	}*/
 
 	
 ?>
