@@ -16,7 +16,7 @@
                 else { ?> 
 					<div id="brand">
 						<a href="accueilCommun.php" ><img src="../image/logo.png" alt="LOGO" /></a>
-						<button class="glow-on-hover" onclick="window.location.href='connexion.php';">Se connecter </button> 
+						<button class="glow-on-hover" onclick="window.location.href='../server/login.php';">Se connecter </button> 
 					</div>        
             <?php }?>
 
