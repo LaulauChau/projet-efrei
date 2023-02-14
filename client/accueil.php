@@ -1,3 +1,10 @@
+<?php
+session_start();
+
+require('../server/cookie.php');
+require('../server/bd_config.php');
+?>
+
 <!DOCTYPE html>
 <html>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,10 +16,13 @@
 	<body>
 		<header>
 			<?php
-                if(isset($_GET['success'])){ ?>
+			if(isset($_SESSION['connect'])) {
+                if(isset($_GET['success'])){   
+					echo'<div class="alert success">Vous êtes maintenant connecté.</div>';
+				?>
                     <button onclick="window.location.href='../server/logout.php';">Se déconnecter</button>
 
-            <?php } 
+            <?php }} 
                 else { ?> 
 					<div id="brand">
 						<a href="accueilCommun.php" ><img src="../image/logo.png" alt="LOGO" /></a>
