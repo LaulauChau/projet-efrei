@@ -18,17 +18,17 @@ require('../server/bd_config.php');
                 if(isset($_GET['success'])){   
 					echo'<div class="alert success">Vous êtes maintenant connecté.</div>';
 				?>
-                    <button onclick="window.location.href='../server/logout.php';">Se déconnecter</button>
+                    <button class="glow-on-hover" onclick="window.location.href='../server/logout.php';">Se déconnecter</button>
 
             <?php }} 
                 else { ?> 
 					<div id="brand">
-						<a href="accueilCommun.php" ><img src="../image/logo.png" alt="LOGO" /></a>
+						<a href="accueil.php" ><img src="../image/logo.png" alt="LOGO" /></a>
 						<button class="glow-on-hover" onclick="window.location.href='../server/login.php';">Se connecter </button> 
 					</div>        
             <?php }?>
 
-			<h1 class= "h1 text-gradiant" >Bienvenue sur Stunning Outfit Shop !</h1> <br>   
+			<h1 class= "h1 text-gradiant" >Amazing godasses Shop !</h1> <br>   
 				
 				<!-- image déroulante -->
 				<div id = "caroussel">

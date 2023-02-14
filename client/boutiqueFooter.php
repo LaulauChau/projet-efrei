@@ -17,7 +17,7 @@
           <h3>Rester en contact</h3>
           <p><img class="gpsimg" src="../image/gps.png"><br>Retrouvez-nous Locaux Efrei</p>
           <p><img class="phoneimg" src="../image/tel.png"><br>Téléphonez-nous<br> Fixe: 01 88 28 90 00</p>
-          <p><img class="mailimg" src="../image/mail.png"><br>Envoyez-nous un mail<a class="mail" href="mailto:supportclient@contact.com"><b>palmer.tech@efrei.net</b></a></p>
+          <p><img class="mailimg" src="../image/mail.png"><br>Envoyez-nous un mail<br><a class="mail" href="mailto:supportclient@contact.com"><b>palmer.tech@efrei.net</b></a></p>
           <p>30-32 Av. de la République – 94800 Villejuif</p>
         </div>
 
