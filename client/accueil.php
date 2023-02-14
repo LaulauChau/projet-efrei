@@ -1,7 +1,5 @@
 <?php
 session_start();
-
-require('../server/cookie.php');
 require('../server/bd_config.php');
 ?>
 
