@@ -21,6 +21,6 @@
 		</section>
 	</body>
 	<footer class="footer bordure_footer">
-		<a class="index boxindex" href="index.html">Home</a><a class="partenaire boxpartenaire" href="partenaire.html">Partenaire</a>
+		<a class="index boxindex" href="index.php">Home</a><a class="partenaire boxpartenaire" href="partenaire.php">Partenaire</a>
 	</footer>
 </html>

@@ -21,11 +21,11 @@ body{
 }
 
 .logonike{
-	width: 300px;
-	margin: 5px;
-	  display: block;
-  margin-left: auto;
-  margin-right: auto;
+	width: 100px;
+	height: 50x;
+	margin: auto;
+	display: block;
+
 }
 
 .center{
@@ -33,17 +33,17 @@ body{
 }
 
 .logojordan{
-	width: 300px;
-	  display: block;
-  margin-left: auto;
-  margin-right: auto;
+	width: 100px;
+	height: 50x;
+	margin: auto;
+	display: block;
 }
 
 .logoadidas{
-	width: 300px;
-	  display: block;
-  margin-left: auto;
-  margin-right: auto;
+	width: 100px;
+	height: 50x;
+	margin: auto;
+	display: block;
 }
 .footer{
 	display: inline-block;
@@ -163,20 +163,3 @@ text-align: center;
 	width: 50px;
 }
 
-.nostyle{
-	text-decoration: none;
-	color: black;
-}
-
-.styletexte{
-	color: darkblue;
-	text-decoration: none;
-}
-.styletexte:hover{
-	color: darkblue;
-	text-decoration: underline 1px darkblue;
-}
-
-.black{
-	background-color: black;
-}
