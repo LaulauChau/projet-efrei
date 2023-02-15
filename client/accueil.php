@@ -11,7 +11,7 @@ require('../server/bd_config.php');
 		<link rel="stylesheet" type="text/css" href="../design/footerFormulaires.css">
 		<link rel="stylesheet" type="text/css" href="../design/style.css"> 
 		<link rel="icon" type="image/png" href="../image/favicon.png">
-		<title>Amazing godasses Shop</title>
+		<title>Palmer Tech Shop</title>
 	</head>
 	<body>
 		<header>
@@ -30,7 +30,7 @@ require('../server/bd_config.php');
 					</div>        
             <?php }?>
 
-			<h1 class= "h1 text-gradiant" >Amazing godasses Shop !</h1> <br>   
+			<h1 class= "h1 text-gradiant" >Palmer Tech Shop !</h1> <br>   
 				
 				<!-- image déroulante -->
 				<div id = "caroussel">
@@ -43,6 +43,8 @@ require('../server/bd_config.php');
 				</div>
 				
 		</header>
+
+		
 
 		<main>
 			<section class="cards">
@@ -61,7 +63,7 @@ require('../server/bd_config.php');
 					</span>
 				</article>
 				<article class="card">
-					<img src="../image/chaussures-de-vile.jpg" alt="Chaussures de ville" />
+					<img src="../image/chaussures-de-ville.jpg" alt="Chaussures de ville" />
 					<span>
 						<p>Chaussures de ville en cuir</p>
 						<p>70 €</p>

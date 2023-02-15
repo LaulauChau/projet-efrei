@@ -109,7 +109,7 @@
 			</form>		
 
 			<p class="grey">Pas encore membre? <a href="inscription.php">Devenir membre</a></p>	<br>	
-			<button style="width: 40%; padding: 5px; font-size: 0.85em" onclick="window.location.href='accueilCommun.php?accueil=1';">Revenir à l'accueil</button>
+			<button style="width: 40%; padding: 5px; font-size: 0.85em" onclick="window.location.href='../index.php';">Revenir à l'accueil</button>
 					
 		</div>
 	</section>

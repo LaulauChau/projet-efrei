@@ -24,7 +24,7 @@ if(isset($_POST["ok"])){
         && !empty($password) && !empty($password_two) 
 		&& !empty($adresse)  && !empty($pays) ){
 
-		require('bd.config.php');
+		require('bd_config.php');
 
 		// VARIABLES
 		$email 				= htmlspecialchars($email);
@@ -129,7 +129,7 @@ if(isset($_POST["ok"])){
 
 	<header>
       	<div id="brand">
-         	<a href= "../index.php" ><img src="../img/logo.png" alt="LOGO" /></a>
+         	<a href= "../index.php" ><img src="../image/logo.png" alt="LOGO" /></a>
       	</div>
    	</header>
 	
@@ -151,7 +151,7 @@ if(isset($_POST["ok"])){
 
 			} else if(isset($_GET['success'])) {
 
-				echo'<div class="alert success">Vous êtes désormais inscrit. <a href="../index.php">Connectez-vous</a>.</div>';
+				echo'<div class="alert success">Vous êtes désormais inscrit. <a href="login.php">Connectez-vous</a>.</div>';
 
 			} ?>
 
