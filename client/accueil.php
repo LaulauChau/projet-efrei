@@ -200,6 +200,34 @@ require('../server/bd_config.php');
 						<p>125 €</p>
 					</span>
 				</article>
+				<article class="card">
+					<img src="../image/adidas-white.jpg" alt="Adidas White" />
+					<span>
+						<p>Adidas White</p>
+						<p>66 €</p>
+					</span>
+				</article>
+				<article class="card">
+					<img src="../image/air-jordan-white-high.jpg" alt="Air Jordan White High" />
+					<span>
+						<p>Air Jordan White High</p>
+						<p>110 €</p>
+					</span>
+				</article>
+				<article class="card">
+					<img src="../image/custom-air-force.jpg" alt="Air Force" />
+					<span>
+						<p>Air Force</p>
+						<p>110 €</p>
+					</span>
+				</article>
+				<article class="card">
+					<img src="../image/jordan-low.jpg" alt="Air Jordan Low" />
+					<span>
+						<p>Air Jordan Low</p>
+						<p>99 €</p>
+					</span>
+				</article>
 			</section>
 		</main>
 
