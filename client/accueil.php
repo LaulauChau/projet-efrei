@@ -42,6 +42,32 @@ require('../server/bd_config.php');
 				
 		</header>
 
+		<main>
+			<section class="cards">
+				<article class="card">
+					<img src="../image/polaire-nike.png" alt="Polaire Nike Sportswear Club" />
+					<span>
+						<p>Polaire Nike Sportswear Club</p>
+						<p>66 €</p>
+					</span>
+				</article>
+				<article class="card">
+					<img src="../image/sweat-tnf.jpg" alt="4566SWTNORTHFACE" />
+					<span>
+						<p>Sweat The North Face</p>
+						<p>72 €</p>
+					</span>
+				</article>
+				<article class="card">
+					<img src="../image/sweat-tnf-2.jpg" alt="HOMMEWIHTE5555THN" />
+					<span>
+						<p>Hoodie The North Face</p>
+						<p>42 €</p>
+					</span>
+				</article>
+			</section>
+		</main>
+
 	<!-- Bouton RETOUR EN HAUT DE PAGE -->
 	<div id="scroll_to_top">
 			<a href="#top"><img src="../image/to_top.png" title="Retourner en haut" /></a>
