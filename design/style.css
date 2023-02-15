@@ -1,0 +1,57 @@
+
+
+.bordure_footer{
+	background-color: #DCDCDC;
+	margin-top: auto;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+
+}
+
+.center{
+	text-align: center;
+}
+
+.logonike{
+	width: 100px;
+	height: 50px;
+	margin: auto;
+	display: block;
+
+}
+.logojordan{
+	width: 100px;
+	height: 100px;
+	margin: auto;
+	display: block;
+
+}
+.logoadidas{
+	width: 100px;
+	height: 80px;
+	margin: auto;
+	display: block;
+}
+
+.bordure_footer{
+    
+    width: 100%;
+    padding-bottom: 25px;
+    padding-top: 25px;
+	display: inline-block;
+    text-align: center;
+}
+
+
+.mailimg{
+	width: 50px;
+}
+
+.gpsimg{
+	width: 50px;
+}
+
+.phoneimg{
+	width: 50px;
+}
+
