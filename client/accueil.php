@@ -5,12 +5,14 @@ require('../server/bd_config.php');
 
 <!DOCTYPE html>
 <html>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="../design/accueil.css">
-    <link rel="stylesheet" type="text/css" href="../design/footerFormulaires.css">
-	<link rel="stylesheet" type="text/css" href="../design/style.css"> 
-	<link rel="icon" type="image/png" href="../image/favicon.png">
-	<title>Amazing godasses Shop</title>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="../design/accueil.css">
+		<link rel="stylesheet" type="text/css" href="../design/footerFormulaires.css">
+		<link rel="stylesheet" type="text/css" href="../design/style.css"> 
+		<link rel="icon" type="image/png" href="../image/favicon.png">
+		<title>Amazing godasses Shop</title>
+	</head>
 	<body>
 		<header>
 			<?php
@@ -45,24 +47,24 @@ require('../server/bd_config.php');
 		<main>
 			<section class="cards">
 				<article class="card">
-					<img src="../image/polaire-nike.png" alt="Polaire Nike Sportswear Club" />
+					<img src="../image/air-force.jpg" alt="Nike Air Force" />
 					<span>
-						<p>Polaire Nike Sportswear Club</p>
-						<p>66 €</p>
+						<p>Nike Air Force 1</p>
+						<p>75 €</p>
 					</span>
 				</article>
 				<article class="card">
-					<img src="../image/sweat-tnf.jpg" alt="4566SWTNORTHFACE" />
+					<img src="../image/air-jordan.jpg" alt="Nike Air Jordan" />
 					<span>
-						<p>Sweat The North Face</p>
-						<p>72 €</p>
+						<p>Nike Air Jordan</p>
+						<p>99 €</p>
 					</span>
 				</article>
 				<article class="card">
-					<img src="../image/sweat-tnf-2.jpg" alt="HOMMEWIHTE5555THN" />
+					<img src="../image/chaussures-de-vile.jpg" alt="Chaussures de ville" />
 					<span>
-						<p>Hoodie The North Face</p>
-						<p>42 €</p>
+						<p>Chaussures de ville en cuir</p>
+						<p>70 €</p>
 					</span>
 				</article>
 			</section>
