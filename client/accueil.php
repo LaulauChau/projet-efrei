@@ -63,10 +63,171 @@ require('../server/bd_config.php');
 					</span>
 				</article>
 				<article class="card">
-					<img src="../image/chaussures-de-ville.jpg" alt="Chaussures de ville" />
+					<img src="../image/adidas-nmd-blanc.jpg" alt="Adidas NMD" />
 					<span>
-						<p>Chaussures de ville en cuir</p>
-						<p>70 €</p>
+						<p>Adidas NMD</p>
+						<p>65 €</p>
+					</span>
+				</article>
+				<article class="card">
+					<img src="../image/air-force-1-brown.jpg" alt="Nike Air Force" />
+					<span>
+						<p>Nike Air Force 1</p>
+						<p>77 €</p>
+					</span>
+				</article>
+				<article class="card">
+					<img src="../image/nike-blazer.jpg" alt="Nike Blazer" />
+					<span>
+						<p>Nike Blazer</p>
+						<p>79,99 €</p>
+					</span>
+				</article>
+				<article class="card">
+					<img src="../image/yeezy-350.jpg" alt="Yeezy 350" />
+					<span>
+						<p>Yeezy 350</p>
+						<p>120 €</p>
+					</span>
+				</article>
+				<article class="card">
+					<img src="../image/nike-air-max.jpg" alt="Nike Air Max" />
+					<span>
+						<p>Nike Air Max</p>
+						<p>150 €</p>
+					</span>
+				</article>
+				<article class="card">
+					<img src="../image/adidas-haute.jpg" alt="Adidas Haute" />
+					<span>
+						<p>Adidas Haute</p>
+						<p>87 €</p>
+					</span>
+				</article>
+				<article class="card">
+					<img src="../image/adidas-nmd-rainbow.jpg" alt="Adidas NMD" />
+					<span>
+						<p>Adidas NMD</p>
+						<p>77 €</p>
+					</span>
+				</article>
+				<article class="card">
+					<img src="../image/adidas-superstar.jpg" alt="Adidas Superstar" />
+					<span>
+						<p>Adidas Superstar</p>
+						<p>77 €</p>
+					</span>
+				</article>
+				<article class="card">
+					<img src="../image/adidas-ultraboost.jpg" alt="Adidas Ultraboost" />
+					<span>
+						<p>Adidas Ultraboost</p>
+						<p>86 €</p>
+					</span>
+				</article>
+				<article class="card">
+					<img src="../image/adidas-zx.jpg" alt="Adidas ZX" />
+					<span>
+						<p>Adidas ZX</p>
+						<p>95 €</p>
+					</span>
+				</article>
+				<article class="card">
+					<img src="../image/air-jordan-offwhite.jpg" alt="Air Jordan Offwhite" />
+					<span>
+						<p>Air Jordan Offwhite</p>
+						<p>400 €</p>
+					</span>
+				</article>
+				<article class="card">
+					<img src="../image/jordan-white.jpg" alt="Air Jordan White" />
+					<span>
+						<p>Air Jordan White</p>
+						<p>150 €</p>
+					</span>
+				</article>
+				<article class="card">
+					<img src="../image/jordan-yellow.jpg" alt="Air Jordan Yellow" />
+					<span>
+						<p>Air Jordan Yellow</p>
+						<p>135 €</p>
+					</span>
+				</article>
+				<article class="card">
+					<img src="../image/jordan.jpg" alt="Air Jordan" />
+					<span>
+						<p>Air Jordan</p>
+						<p>175 €</p>
+					</span>
+				</article>
+				<article class="card">
+					<img src="../image/nike-air-max-noir.jpg" alt="Nike Air Max Noir" />
+					<span>
+						<p>Nike Air Max Noir</p>
+						<p>73 €</p>
+					</span>
+				</article>
+				<article class="card">
+					<img src="../image/nike-training.jpg" alt="Nike Training" />
+					<span>
+						<p>Nike Training</p>
+						<p>55 €</p>
+					</span>
+				</article>
+				<article class="card">
+					<img src="../image/red-jordan.jpg" alt="Air Jordan Red" />
+					<span>
+						<p>Air Jordan Red</p>
+						<p>120 €</p>
+					</span>
+				</article>
+				<article class="card">
+					<img src="../image/running-red.jpg" alt="Nike Running Red" />
+					<span>
+						<p>Nike Running Red</p>
+						<p>75 €</p>
+					</span>
+				</article>
+				<article class="card">
+					<img src="../image/running-white.jpg" alt="Nike Running White" />
+					<span>
+						<p>Nike Running White</p>
+						<p>75 €</p>
+					</span>
+				</article>
+				<article class="card">
+					<img src="../image/yeezy-white.jpg" alt="Yeezy White" />
+					<span>
+						<p>Yeezy White</p>
+						<p>125 €</p>
+					</span>
+				</article>
+				<article class="card">
+					<img src="../image/adidas-white.jpg" alt="Adidas White" />
+					<span>
+						<p>Adidas White</p>
+						<p>66 €</p>
+					</span>
+				</article>
+				<article class="card">
+					<img src="../image/air-jordan-white-high.jpg" alt="Air Jordan White High" />
+					<span>
+						<p>Air Jordan White High</p>
+						<p>110 €</p>
+					</span>
+				</article>
+				<article class="card">
+					<img src="../image/custom-air-force.jpg" alt="Air Force" />
+					<span>
+						<p>Air Force</p>
+						<p>110 €</p>
+					</span>
+				</article>
+				<article class="card">
+					<img src="../image/jordan-low.jpg" alt="Air Jordan Low" />
+					<span>
+						<p>Air Jordan Low</p>
+						<p>99 €</p>
 					</span>
 				</article>
 			</section>

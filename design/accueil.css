@@ -121,7 +121,8 @@ h3 {
   padding: clamp(1rem, 5vw, 2rem);
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 1rem;
+  grid-column-gap: 1.5rem;
+  grid-row-gap: 3rem;
   text-align: center;
 }
 
