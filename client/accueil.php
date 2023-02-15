@@ -61,10 +61,38 @@ require('../server/bd_config.php');
 					</span>
 				</article>
 				<article class="card">
-					<img src="../image/chaussures-de-vile.jpg" alt="Chaussures de ville" />
+					<img src="../image/adidas-nmd-blanc.jpg" alt="Adidas NMD" />
 					<span>
-						<p>Chaussures de ville en cuir</p>
-						<p>70 €</p>
+						<p>Adidas NMD</p>
+						<p>65 €</p>
+					</span>
+				</article>
+				<article class="card">
+					<img src="../image/air-force-1-brown.jpg" alt="Nike Air Force" />
+					<span>
+						<p>Nike Air Force 1</p>
+						<p>77 €</p>
+					</span>
+				</article>
+				<article class="card">
+					<img src="../image/nike-blazer.jpg" alt="Nike Blazer" />
+					<span>
+						<p>Nike Blazer</p>
+						<p>79,99 €</p>
+					</span>
+				</article>
+				<article class="card">
+					<img src="../image/yeezy-350.jpg" alt="Yeezy 350" />
+					<span>
+						<p>Yeezy 350</p>
+						<p>120 €</p>
+					</span>
+				</article>
+				<article class="card">
+					<img src="../image/nike-air-max" alt="Nike Air Max" />
+					<span>
+						<p>Nike Air Max</p>
+						<p>150 €</p>
 					</span>
 				</article>
 			</section>
